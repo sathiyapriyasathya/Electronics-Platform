@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ElectroShop - Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>ElectroShop</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="products">
+    <h2>Our Electronics</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Laptop">
+        <h3>Laptop</h3>
+        <p>$800</p>
+        <button onclick="addToCart('Laptop',800)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Smartphone">
+        <h3>Smartphone</h3>
+        <p>$500</p>
+        <button onclick="addToCart('Smartphone',500)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Headphones">
+        <h3>Headphones</h3>
+        <p>$150</p>
+        <button onclick="addToCart('Headphones',150)">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ElectroShop. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
